@@ -30,21 +30,167 @@ data class Author(
     val bio: String,
 )
 
+val author1 = Author(
+    id = "0",
+    name = "Cup Cake",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author2 = Author(
+    id = "1",
+    name = "Donut",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author3 = Author(
+    id = "2",
+    name = "Eclair",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author4 = Author(
+    id = "3",
+    name = "Froyo",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author5 = Author(
+    id = "4",
+    name = "Ginger Bread",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author6 = Author(
+    id = "5",
+    name = "Honey Comb",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author7 = Author(
+    id = "6",
+    name = "Ice Cream Sandwich",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author8 = Author(
+    id = "7",
+    name = "Jelly Bean",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author9 = Author(
+    id = "8",
+    name = "KitKat",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author10 = Author(
+    id = "9",
+    name = "Lollipop",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author11 = Author(
+    id = "10",
+    name = "Marshmallow",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author12 = Author(
+    id = "11",
+    name = "Nougat",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author13 = Author(
+    id = "12",
+    name = "Oreo",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author14 = Author(
+    id = "13",
+    name = "Pie",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+val author15 = Author(
+    id = "14",
+    name = "Quince Tart",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author16 = Author(
+    id = "15",
+    name = "Red Velvet Cake",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author17 = Author(
+    id = "16",
+    name = "Snow Cone",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
+val author18 = Author(
+    id = "17",
+    name = "Tiramisu",
+    imageUrl = "",
+    twitter = "",
+    mediumPage = "",
+    bio =""
+)
+
 val previewAuthors = listOf(
-    Author(
-        id = "22",
-        name = "Alex Vanyo",
-        mediumPage = "https://medium.com/@alexvanyo",
-        twitter = "https://twitter.com/alex_vanyo",
-        imageUrl = "https://pbs.twimg.com/profile_images/1431339735931305989/nOE2mmi2_400x400.jpg",
-        bio = "Alex joined Android DevRel in 2021, and has worked supporting form factors from small watches to large foldables and tablets. His special interests include insets, Compose, testing and state."
-    ),
-    Author(
-        id = "3",
-        name = "Simona Stojanovic",
-        mediumPage = "https://medium.com/@anomisSi",
-        twitter = "https://twitter.com/anomisSi",
-        imageUrl = "https://pbs.twimg.com/profile_images/1437506849016778756/pG0NZALw_400x400.jpg",
-        bio = "Android Developer Relations Engineer @Google, working on the Compose team and taking care of Layouts & Navigation."
-    )
+    author1,author2,author3,author4,author5,author6,author7,author8,author9,author10,author11,author12,author13,author14,author15,author16,author17,author18
 )

@@ -87,5 +87,16 @@ val previewNewsResources = listOf(
         type = Video,
         authors = listOf(previewAuthors[0], previewAuthors[1]),
         topics = listOf(previewTopics[2])
+    ),
+    NewsResource(
+        id = "4",
+        title = "Compose Preview",
+        content = "Annotate any of your @Composable with the Preview annotation and you can see a visual rendering for your Composables on the preview panel",
+        url = "https://youtu.be/ZARz0pjm5YM",
+        headerImageUrl = "https://i.ytimg.com/vi/ZARz0pjm5YM/maxresdefault.jpg",
+        publishDate = Instant.parse("2021-11-01T00:00:00.000Z"),
+        type = Video,
+        authors = listOf(previewAuthors[0], previewAuthors[1]),
+        topics = listOf(previewTopics[2])
     )
 )

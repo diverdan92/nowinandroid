@@ -41,7 +41,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
-import androidx.compose.material3.windowsizeclass.WindowSizeClass.Companion
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
@@ -52,8 +51,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.testTagsAsResourceId
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.DpSize
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
 import com.google.samples.apps.nowinandroid.core.designsystem.component.NiaBackground
@@ -243,8 +242,8 @@ private fun NiaBottomBar(
 @ReferenceDevicePreviews
 @Composable
 fun NiaAppLayoutPreview(){
-    val widthDp = Dp(LocalConfiguration.current.screenWidthDp.toFloat())
-    val heightDp = Dp(LocalConfiguration.current.screenHeightDp.toFloat())
-    val windowSizeClass = WindowSizeClass.calculateFromSize(DpSize(widthDp, heightDp))
+    val config = LocalConfiguration.current
+    val size = DpSize(config.screenWidthDp.dp, config.screenHeightDp.dp)
+    val windowSizeClass = WindowSizeClass.calculateFromSize(size)
     NiaApp(windowSizeClass = windowSizeClass)
 }
